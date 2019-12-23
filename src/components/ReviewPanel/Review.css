@@ -1,0 +1,36 @@
+
+.review {
+	background-color: #fff;
+	padding: 10px;
+	font-family: var(--sub-font);
+	/* border-bottom: 1px solid #e0e0e0; */
+}
+
+.review-avatar {
+	float: left;
+	margin-right: 10px;
+	width: 40px;
+}
+
+.review-author {
+	margin-top: 0;
+	margin-bottom: 4px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.review-comment {
+	margin-bottom: 0;
+	margin-top: 4px;
+	font-size: 15px;
+}
+
+.review-time {
+	font-size: 16px;
+	color: #a3a3a3;
+	font-weight: 500;
+}
+
+hr {
+	margin-top: 20px;
+}

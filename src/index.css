@@ -1,0 +1,15 @@
+:root {
+  --main-color: rgb(255, 86, 86);
+  --background-color: #F9F9F9;
+  --star-color: #FFD700;
+  --main-font: 'Source Sans Pro', sans-serif;
+  --sub-font: 'Ubuntu', sans-serif;
+}
+/* #FFA726 */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

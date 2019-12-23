@@ -1,0 +1,26 @@
+.Header {
+    background-image: url('../../img/hero.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 19vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: var(--main-font);
+    border-bottom: 2px solid var(--main-color);
+}
+
+.Header img {
+    width: 200px;
+    margin-left: 20px;
+    position: relative;
+    left: 160px;
+}
+
+@media (min-width: 280px) and (max-width: 700px) {
+    .Header {
+        display: none;
+    }
+}

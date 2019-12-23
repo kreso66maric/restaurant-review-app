@@ -1,0 +1,67 @@
+.HomePage-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../img/hero.jpeg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.HomePage-container::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.HomePage-title {
+    font-size: 60px;
+    color: var(--main-color);
+    z-index: 1;
+}
+
+.HomePage-logo {
+    z-index: 1;
+    width: 250px;
+}
+
+.HomePage-start-button {
+    border: 1px solid #000;
+	border-radius: 2px;
+    padding: 10px 30px;
+    font-size: 16px;
+	cursor: pointer;
+	margin: 30px auto;
+	display: block;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    z-index: 1;
+}
+
+.HomePage-start-button:hover {
+    background-color: var(--main-color);
+    position: relative;
+	bottom: 1px;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+@media (min-width: 700px) and (max-width: 1280px) {
+	.HomePage-title {
+		font-size: 50px;
+	}
+}
+
+@media (min-width: 280px) and (max-width: 700px) {
+    .HomePage-title {
+        font-size: 30px;
+    }
+}
+	

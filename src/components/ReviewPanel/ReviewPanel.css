@@ -1,0 +1,12 @@
+
+.reviewPanel {
+	background-color: #fff;
+	padding-top: 10px;
+}
+
+.reviewPanel-noReviews {
+	background-color: #fff;
+	text-align: center;
+	font-size: 25px;
+	font-family: var(--sub-font);
+}

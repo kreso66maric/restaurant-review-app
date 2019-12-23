@@ -1,0 +1,29 @@
+.InfoWindow {
+	margin: 0;
+	font-family: var(--main-font);
+	font-size: 13px;
+	font-weight: 400;
+	overflow: hidden;
+}
+
+.InfoWindow-title {
+	margin: 0;
+	padding: 5px;
+	font-family: var(--main-font);
+	color: var(--main-color);
+}
+
+.InfoWindow-address {
+	margin: 0;
+	padding: 5px;
+	font-family: var(--sub-font);
+}
+
+.InfoWindow-rating {
+	padding: 5px;
+	margin-right: 5px;
+}
+
+.fa-star {
+	color: var(--star-color);
+}

@@ -1,0 +1,91 @@
+.AddRestaurant {
+    padding: 14px;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.AddRestaurant-title {
+    text-align: center;
+    font-family: var(--main-font);
+	color: var(--main-color);
+}
+
+.AddRestaurant-name {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.AddRestaurant-rating {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.AddRestaurant-address-input {
+    display: none;
+}
+
+.AddRestaurant input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #e3e3e3;
+    border-radius: 2px;
+}
+
+.AddRestaurant-action-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.AddRestaurant-coords-button {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #000;
+	border-radius: 2px;
+	padding: 7px 20px;
+	color: #000;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.AddRestaurant-coords-button:hover {
+    position: relative;
+    bottom: 1px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+.AddRestaurant-submit-button {
+    background-color: #fff;
+    border: 1px solid #000;
+	border-radius: 2px;
+	padding: 7px 20px;
+	color: #000;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.AddRestaurant-submit-button:hover {
+    position: relative;
+    bottom: 1px;
+    background-color: #3B78E7;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+.AddRestaurant-cancel-button {
+    background-color: #fff;
+    border: 1px solid #000;
+	border-radius: 2px;
+	padding: 7px 20px;
+	color: #000;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.AddRestaurant-cancel-button:hover {
+    position: relative;
+    bottom: 1px;
+    background-color: #DC3545;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}

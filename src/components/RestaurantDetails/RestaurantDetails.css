@@ -1,0 +1,165 @@
+/* Top-information */
+.RestaurantDetails-top-info {
+	background-color: var(--background-color);
+	padding-bottom: 20px;
+	margin-bottom: 25px;
+	position: sticky;
+	top: 0;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+ }
+
+ .RestaurantDetails-top-info-photo-box {
+	margin: 0 auto;
+	width: 80%;
+	height: 170px;
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: cover;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.RestaurantDetails-top-info-container {
+	padding: 10px 14px;
+}
+
+.RestaurantDetails-top-info-title {
+	margin-bottom: 5px;
+	margin-top: 20px;
+	margin-left: 2px;
+	font-family: var(--main-font);
+	font-size: 20px;
+	font-weight: 700;
+	color: var(--main-color);
+}
+
+.RestaurantDetails-top-info-rating {
+	margin: 0 2px;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: var(--sub-font);
+}
+
+.fa-arrow-circle-left {
+	position: absolute;
+	right: 10px;
+	top: 210px;
+	font-size: 45px;
+	cursor: pointer;
+}
+
+.fa-arrow-circle-left:hover {
+	color: var(--main-color);
+}
+
+/* Bottom-information */
+.RestaurantDetails-details {
+	padding: 10px;
+	font-size: 14px;
+	font-weight: 500;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+/* Address */
+.RestaurantDetails-details-address {
+	display: flex;
+	align-items: center;
+	margin-bottom: 4px;
+	font-family: var(--sub-font);
+}
+/* Phone */
+.RestaurantDetails-details-phone {
+	display: flex;
+	align-items: center;
+	margin-bottom: 4px;
+	font-family: var(--sub-font);
+}
+/* Website */
+.RestaurantDetails-details-website a {
+	text-decoration: none;
+	color: #000;
+	font-family: var(--sub-font);
+}
+
+.RestaurantDetails-details-website p {
+	color: #000;
+	font-family: var(--sub-font);
+}
+
+.RestaurantDetails-details-website a:hover {
+	color: var(--main-color);
+}
+
+.RestaurantDetails-details-website {
+	display: flex;
+	align-items: center;
+	margin-bottom: 4px;
+}
+/* Open-status */
+.RestaurantDetails-details-open-status {
+	margin-bottom: 4px;
+	display: flex;
+	align-items: center;
+	font-family: var(--sub-font);
+}
+
+.RestaurantDetails-details-open {
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.RestaurantDetails-details-closed {
+	font-weight: 600;
+	color: #a3a3a3;
+	font-size: 14px;
+}
+/* Operating-hours */
+.RestaurantDetails-details-operating-hours {
+	margin-left: 42px;
+	font-family: var(--sub-font);
+}
+
+.RestaurantDetails-details-hours-label {
+	margin-bottom: 4px;
+	font-family: var(--sub-font);
+}
+
+.RestaurantDetails-details-hours ul {
+	padding: 0;
+	list-style: none;
+	font-weight: 400;
+}
+/* Restaurant-reviews */
+.RestaurantDetails-reviews {
+	background-color: #fff;
+}
+/* Restaurant-reviews-buttons */
+.RestaurantDetails-reviews-button {
+	border: 1px solid #000;
+	border-radius: 2px;
+	padding: 7px 50px;
+	color: #000;
+	cursor: pointer;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.RestaurantDetails-reviews-button:hover {
+	position: relative;
+	bottom: 1px;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+.RestaurantDetails-reviews-add-review-button {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 14px;
+}
+/* Icons */
+.details-icons {
+	font-size: 28px;
+	margin-right: 10px;
+	margin-left: 5px;
+	color: var(--main-color);
+}
+
+
+

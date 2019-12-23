@@ -1,0 +1,107 @@
+.SidePanel {
+	height: 80vh;
+	width: 30%;
+	display: inline-block;
+	background-color: var(--background-color);
+	overflow-y: scroll;
+}
+
+.SidePanel-top {
+	background-color: var(--background-color);
+	position: sticky;
+	top: 0;
+}
+.SidePanel-filter-buttons {
+	display: block;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.star {
+	width: 30px;
+}
+
+.SidePanel-filter-title {
+	text-align: center;
+	font-family: var(--main-font);
+	color: var(--main-color);
+}
+
+.sidePanel-resetFilter:hover {
+	box-shadow: 0 10px 15px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+.SidePanel-AddRestaurant-button {
+	border: 1px solid #000;
+	border-radius: 2px;
+	padding: 7px 20px;
+	color: #000;
+	cursor: pointer;
+	margin: 30px auto;
+	display: block;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.SidePanel-AddRestaurant-button:hover {
+	position: relative;
+	bottom: 1px;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+
+}
+
+/* Filter restaurants stars */
+  .hide {
+	display: none;
+  }
+  
+  .star {
+	  font-size: 35px;
+  }
+  .rating {
+	  width: 100%;
+	  unicode-bidi: bidi-override;
+	  direction: rtl;
+	  text-align: center;
+	  position: relative;
+  }
+  
+  .rating > label {
+	  display: inline;
+	  padding: 0;
+	  margin: 0;
+	  position: relative;
+	  cursor: pointer;
+	  color: #000;
+  }
+  
+  .rating > label:hover,
+  .rating > label:hover ~ label,
+  .rating > input.radio-btn:checked ~ label {
+	  color: transparent;
+  }
+  
+  .rating > label:hover:before,
+  .rating > label:hover ~ label:before,
+  .rating > input.radio-btn:checked ~ label:before,
+  .rating > input.radio-btn:checked ~ label:before {
+	  content: "\2605";
+	  position: absolute;
+	  left: 0;
+	  color: var(--star-color);
+  }
+
+@media (min-width: 700px) and (max-width: 1280px) {
+	.SidePanel {
+		width: 40%;
+	}
+}
+
+@media (min-width: 280px) and (max-width: 700px) {
+	.SidePanel {
+		height: 80vh;
+		width: 100%;
+	}
+}
